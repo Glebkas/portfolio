@@ -5,7 +5,8 @@ import Footer from "./Footer";
 function Layout() {
   return (
     <>
-      <header>
+      <header className="header">
+        <div className="header__logo"></div>
         <Nav></Nav>
       </header>
 
