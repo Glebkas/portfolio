@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "IbarraRealNova";
+  src: url(../fonts/IbarraRealNova-Bold.woff) format("woff"),
+    url(../fonts/IbarraRealNova-Bold.ttf) format("ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "PublicSans";
+  src: url(../fonts/PublicSans-Regular.woff) format("woff"),
+    url(../fonts/PublicSans-Regular.ttf) format("ttf");
+  font-weight: 400;
+}

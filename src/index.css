@@ -1,7 +1,5 @@
-.body {
-  background-color: rgba(250, 250, 250, 1);
-}
 @import url(./vendor/normalize.css);
+@import url(./fonts/fonts.css);
 @import url(./blocks/root/root.css);
 @import url(./blocks/header/header.css);
 @import url(./blocks/header/__logo/header__logo.css);
@@ -14,3 +12,4 @@
 @import url(./blocks/homepage-top/__title/homepage-top__title.css);
 @import url(./blocks/homepage-top/button/homepage-top__button.css);
 @import url(./blocks/homepage-top/__button-caption/homepage-top__button-caption.css);
+@import url(./blocks/homepage-top/__button-icon/homepage-top__button-icon.css);
