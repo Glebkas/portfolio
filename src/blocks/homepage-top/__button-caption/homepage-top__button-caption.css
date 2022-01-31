@@ -1,7 +1,14 @@
-.homepage-top__button-caption{
-  font-size: 12px;
+.homepage-top__button-caption {
   line-height: 14px;
-  letter-spacing: 2px;
   text-align: center;
-
+  text-transform: uppercase;
+  font-family: "PublicSans";
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
 }
