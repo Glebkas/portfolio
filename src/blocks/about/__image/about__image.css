@@ -1,0 +1,8 @@
+.about__image {
+  background-image: url(../../../../public/images/profile-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 600px;
+  height: 600px;
+}
