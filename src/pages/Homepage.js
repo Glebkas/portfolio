@@ -7,6 +7,9 @@ function Homepage() {
   const handleAboutbuttonClick = () => {
     navigate("/portfolio");
   };
+  const handleContactMebuttonClick = () => {
+    navigate("/contact");
+  };
 
   return (
     <div className="homepage">
@@ -28,14 +31,22 @@ function Homepage() {
         <div className="about__description-container">
           <h2 className="about__title">About Me</h2>
           <p className="about__description">{data.info.aboutMe}</p>
-          <button
-            onClick={handleAboutbuttonClick}
-            className="about__button"
-            to="/portfolio"
-          >
+          <button onClick={handleAboutbuttonClick} className="about__button">
             Go to Portfolio
           </button>
         </div>
+      </section>
+      <section className="homepage-contact">
+        <h2 className="homepage-contact__title">
+          Interested in doing a project together?
+        </h2>
+        <div className="homepage-contact__line"></div>
+        <button
+          className="homepage-contact__button"
+          onClick={handleContactMebuttonClick}
+        >
+          CONTACT ME
+        </button>
       </section>
     </div>
   );
