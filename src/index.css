@@ -22,4 +22,8 @@ body {
 @import url(./blocks/about/__description-container/about__description-container.css);
 @import url(./blocks/about/__title/about__title.css);
 @import url(./blocks/about/__description/about__description.css);
-@import url(./blocks/about/__button/about__button.css); ;
+@import url(./blocks/about/__button/about__button.css);
+@import url(./blocks/homepage-contact/homepage-contact.css);
+@import url(./blocks/homepage-contact/__title/homepage-contact__title.css);
+@import url(./blocks/homepage-contact/__line/homepage-contact__line.css);
+@import url(./blocks/homepage-contact/__button/homepage-contact__button.css);
