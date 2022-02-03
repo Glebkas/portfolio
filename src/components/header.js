@@ -1,10 +1,13 @@
-// import { useState } from 'react';
-import Nav from "./Navbar";
+import Nav from "./Nav";
 function Header() {
+  const setActive = ({ isActive }) =>
+    isActive ? "nav__link nav__link_active" : "nav__link";
+
   return (
-    <div className="header">
-      <Nav></Nav>
-    </div>
+    <header className="header">
+      <div className="header__logo"></div>
+      <Nav setActive={setActive}></Nav>
+    </header>
   );
 }
 
