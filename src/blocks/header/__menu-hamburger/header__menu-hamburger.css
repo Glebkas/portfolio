@@ -1,0 +1,16 @@
+.header__menu-hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 640px) {
+  .header__menu-hamburger {
+    display: block;
+    width: 24px;
+    height: 13px;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    background: url(../../../../public/images/hamburger.svg);
+    cursor: pointer;
+  }
+}

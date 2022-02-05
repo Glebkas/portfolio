@@ -4,4 +4,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 1440px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .footer {
+    height: 354px;
+  }
 }

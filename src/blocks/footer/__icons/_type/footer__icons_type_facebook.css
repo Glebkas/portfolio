@@ -1,0 +1,6 @@
+.footer__icons_type_facebook {
+  background-image: url("../../../../../public/images/facebook.svg");
+  height: 24px;
+  width: 25px;
+  cursor: pointer;
+}

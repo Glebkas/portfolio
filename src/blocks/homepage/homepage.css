@@ -1,3 +1,13 @@
 .homepage {
   max-width: 1100px;
+  animation: fadein 1s ease-in alternate;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

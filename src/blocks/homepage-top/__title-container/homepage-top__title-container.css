@@ -1,6 +1,12 @@
 .homepage-top__title-container {
-  background-color: white;
-}
-.homepage-top__title-container {
   background: #fafafa;
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (max-width: 720px) {
+  .homepage-top__title-container {
+    position: unset;
+    bottom: 0;
+  }
 }

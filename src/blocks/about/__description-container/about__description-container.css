@@ -2,6 +2,17 @@
   max-width: 435px;
   border-top: solid 1px rgba(51, 50, 61, 0.15);
   border-bottom: solid 1px rgba(51, 50, 61, 0.15);
-
   margin: 0 0 0 85px;
+}
+
+@media screen and (max-width: 768px) {
+  .about__description-container {
+    margin: 0 0 0 60px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .about__description-container {
+    margin: 0;
+    max-width: 100%;
+  }
 }

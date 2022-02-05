@@ -1,6 +1,14 @@
 .footer__logo {
-  width: 60px;
+  min-width: 60px;
   height: 32px;
   background-image: url(../../../../public/images/logo-footer.svg);
   margin-right: 48px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width:640px) {
+  .footer__logo{
+    margin: auto;
+  }
+  
 }

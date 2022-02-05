@@ -1,0 +1,7 @@
+@media screen and (max-width: 640px) {
+  .nav_type_footer {
+    flex-direction: column;
+    padding: 40px 0 40px 0;
+    align-items: center;
+  }
+}

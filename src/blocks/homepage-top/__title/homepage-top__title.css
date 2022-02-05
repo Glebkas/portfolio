@@ -19,3 +19,9 @@
     font-size: 40px;
   }
 }
+
+@media screen and (max-width: 720px) {
+  .homepage-top__title {
+    padding: 24px 0 0 0;
+  }
+}

@@ -10,3 +10,9 @@
   max-width: 435px;
   margin: 0;
 }
+
+@media screen and (max-width: 720px) {
+  .about__description {
+    max-width: 720px;
+  }
+}

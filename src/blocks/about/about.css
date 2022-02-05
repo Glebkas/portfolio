@@ -3,3 +3,10 @@
   flex-direction: row;
   margin-top: 150px;
 }
+
+@media screen and (max-width: 720px) {
+  .about {
+    flex-direction: column;
+    margin-top: 96px;
+  }
+}

@@ -22,3 +22,9 @@
   color: white;
   transition: 0.7s;
 }
+
+@media screen and (max-width: 768px) {
+  .about__button {
+    margin: 24px auto 63px auto;
+  }
+}

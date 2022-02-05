@@ -5,3 +5,9 @@
   font-family: "IbarraRealNova";
   margin: 50px 0 28px 0;
 }
+
+@media screen and (max-width: 720px) {
+  .about__title {
+    margin: 32px 0 28px 0;
+  }
+}

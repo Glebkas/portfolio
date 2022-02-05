@@ -1,0 +1,14 @@
+.nav_type_mobile {
+  position: absolute;
+  flex-direction: column;
+  color: #ffffff;
+  background-color: #33323d;
+  right: 40px;
+  top: 63px;
+  max-width: 223px;
+  height: 186px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}

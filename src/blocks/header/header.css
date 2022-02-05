@@ -7,4 +7,17 @@
   font-family: "PublicSans";
   margin-right: auto;
   margin-left: auto;
+  position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    padding: 0 40px 0 40px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .header {
+    margin-bottom: 32px;
+  }
 }
