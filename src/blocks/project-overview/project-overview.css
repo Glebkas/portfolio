@@ -1,0 +1,18 @@
+.project-overview {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  padding: 0;
+  text-indent: 0;
+}
+
+@media screen and (max-width: 720px) {
+  .project-overview {
+    flex-direction: column;
+    margin-top: 72px;
+  }
+}
+
+.project-overview:nth-child(even) {
+  flex-direction: row-reverse;
+}

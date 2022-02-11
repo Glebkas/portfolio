@@ -19,6 +19,7 @@ body {
 @import url(./blocks/header/__nav-link/_active/header__nav-link_active.css);
 @import url(./blocks/nav/__link/_type/nav__link_type_footer.css);
 @import url(./blocks/main/main.css);
+@import url(./blocks/portfolio/potfolio.css);
 @import url(./blocks/homepage/homepage.css);
 @import url(./blocks/homepage-top/homepage-top.css);
 @import url(./blocks/homepage-top/__image/homepage-top__image);
@@ -37,6 +38,12 @@ body {
 @import url(./blocks/contact/__title/contact__title.css);
 @import url(./blocks/contact/__line/contact__line.css);
 @import url(./blocks/contact/__button/contact__button.css);
+@import url(./blocks/project-overview/project-overview.css);
+@import url(./blocks/project-overview/__image/project-overview__image.css);
+@import url(./blocks/project-overview/__description-container/project-overview__description-container.css);
+@import url(./blocks/project-overview/__title/project-overview__title.css);
+@import url(./blocks/project-overview/__description/project-overview__description.css);
+@import url(./blocks/project-overview/__button/project-overview__button.css);
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__container/footer__container.css);
 @import url(./blocks/footer/__logo/footer__logo.css);

@@ -1,0 +1,18 @@
+.project-overview__description {
+  font-family: "publicsans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: left;
+  color: #33323d;
+  opacity: 0.8;
+  max-width: 435px;
+  margin: 0;
+}
+
+@media screen and (max-width: 720px) {
+  .project-overview__description {
+    max-width: 720px;
+  }
+}
