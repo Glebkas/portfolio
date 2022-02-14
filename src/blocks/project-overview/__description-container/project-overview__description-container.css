@@ -6,17 +6,17 @@
 }
 
 @media screen and (max-width: 768px) {
-  .about__description-container {
+  .project-overview__description-container {
     margin: 0 0 0 60px;
   }
 }
 @media screen and (max-width: 720px) {
-  .about__description-container {
+  .project-overview__description-container {
     margin: 0;
     max-width: 100%;
   }
 }
 
-.about__description-container:nth-child(even) {
+.project-overview__description-container:nth-child(odd) {
   margin: 0 85px 0 0;
 }

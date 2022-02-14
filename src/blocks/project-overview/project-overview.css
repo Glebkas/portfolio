@@ -13,6 +13,6 @@
   }
 }
 
-.project-overview:nth-child(even) {
+.project-overview:nth-of-type(even) {
   flex-direction: row-reverse;
 }
