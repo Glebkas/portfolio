@@ -1,5 +1,6 @@
 import ProjectOverview from "../components/ProjectOverview";
 import data from "../utils/data";
+import Contact from "../components/Contact";
 
 function Portfolio() {
   return (
@@ -15,6 +16,7 @@ function Portfolio() {
           />
         ))}
       </ul>
+      <Contact></Contact>
     </>
   );
 }
