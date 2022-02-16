@@ -17,3 +17,9 @@
 .project-overview:nth-of-type(even) {
   flex-direction: row-reverse;
 }
+
+@media screen and (max-width: 720px) {
+  .project-overview:nth-of-type(even) {
+    flex-direction: column;
+  }
+}
