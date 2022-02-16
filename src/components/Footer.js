@@ -1,5 +1,6 @@
 import Nav from "./Nav";
 import data from "../utils/data";
+import { Link } from "react-router-dom";
 function Footer() {
   const setFooterNavActive = ({ isActive }) =>
     isActive ? "nav__link nav__link_active" : "nav__link nav__link_type_footer";
@@ -12,9 +13,12 @@ function Footer() {
   return (
     <div className="footer">
       <div className="footer__container">
-        <div className="footer__logo"></div>
+        <Link to="/" className="footer__logo"></Link>
         <div className="footer__menu-icons-container">
-          <Nav classType={`nav nav_type_footer`} setActive={setFooterNavActive}></Nav>
+          <Nav
+            classType={`nav nav_type_footer`}
+            setActive={setFooterNavActive}
+          ></Nav>
           <div className="footer__icons">
             <i
               id={data.iconLinks.github}
