@@ -4,11 +4,12 @@ import Icons from "../components/Icons";
 function ContactMe() {
   return (
     <div className="contact-me">
-      <div className="contact-me">
-        <h2 className="contact-me__title">Get in Touch</h2>
-        <div contact-me></div>
-        <p className="contact-me__description">{data.contact}</p>
-        <Icons></Icons>
+      <div className="contact-me-top">
+        <h2 className="contact-me-top__title">Get in Touch</h2>
+        <div className="contact-me-top__description-container">
+          <p className="contact-me-top__description">{data.contact}</p>
+          <Icons></Icons>
+        </div>
       </div>
 
       <div className="contact-me__form-section">
