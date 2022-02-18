@@ -53,3 +53,6 @@ body {
 @import url(./blocks/icons/_type/icons__icon_type_github.css);
 @import url(./blocks/icons/_type/icons__icon_type_linkedin.css);
 @import url(./blocks/contact-me/contact-me.css);
+@import url(./blocks/contact-me-top/contact-me-top.css);
+@import url(./blocks/contact-me-top/__title/contact-me-top__title.css);
+@import url(./blocks/contact-me-top/__description/contact-me-top__description.css);
