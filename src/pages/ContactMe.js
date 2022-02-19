@@ -15,10 +15,34 @@ function ContactMe() {
       <div className="contact-me__form-section">
         <h2 className="contact-me__form-section-title">Contact Me</h2>
         <form className="contact-me__form">
-          <input className="contact-me__form-input" type="text"></input>
-          <input type="email" placeholder=""></input>
-          <input type="text" placeholder=""></input>
-          <button>Send Message</button>
+          <label className="contact-me__form-label" for="name">
+            Name
+          </label>
+          <input
+            name="name"
+            type="text"
+            className="contact-me__form-input"
+            placeholder="Insert your name here…"
+          ></input>
+          <label className="contact-me__form-label" for="email">
+            Email Address
+          </label>
+          <input
+            className="contact-me__form-input"
+            name="email"
+            type="email"
+            placeholder="email@example.com"
+          ></input>
+          <label className="contact-me__form-label" for="email">
+            Message
+          </label>
+          <input
+            className="contact-me__form-input"
+            name="message"
+            type="text"
+            placeholder="How can I help?"
+          ></input>
+          <button className="contact-me__form-button">Send Message</button>
         </form>
       </div>
     </div>
