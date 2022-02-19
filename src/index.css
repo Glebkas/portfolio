@@ -59,3 +59,6 @@ body {
 @import url(./blocks/contact-me/__form-section/contact-me__form-section.css);
 @import url(./blocks/contact-me/__form/contact-me__form.css);
 @import url(./blocks/contact-me/__form-section-title/contact-me__form-section-title.css);
+@import url(./blocks/contact-me/__form-label/contact-me__form-label.css);
+@import url(./blocks/contact-me/__form-input/contact-me__form-input.css);
+@import url(./blocks/contact-me/__form-button/contact-me__form-button.css);
