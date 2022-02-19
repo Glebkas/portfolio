@@ -1,0 +1,13 @@
+.contact-me__form-button {
+  max-width: 200px;
+  background-color: rgba(32, 58, 76, 1);
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 2px;
+  line-height: 14px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "PublicSans";
+  border: none;
+  text-transform: uppercase;
+  padding: 17px 24px 17px 24px;
+}
