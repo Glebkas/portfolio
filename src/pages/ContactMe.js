@@ -15,7 +15,7 @@ function ContactMe() {
       <div className="contact-me__form-section">
         <h2 className="contact-me__form-section-title">Contact Me</h2>
         <form className="contact-me__form">
-          <input type="text"></input>
+          <input className="contact-me__form-input" type="text"></input>
           <input type="email" placeholder=""></input>
           <input type="text" placeholder=""></input>
           <button>Send Message</button>
