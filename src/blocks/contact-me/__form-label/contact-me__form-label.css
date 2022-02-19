@@ -1,0 +1,9 @@
+.contact-me__form-label {
+  font-size: 13px;
+  line-height: 30px;
+  font-family: "PublicSans";
+  color: rgba(51, 50, 61, 0.8);
+  font-weight: bold;
+  margin: 0 0 8px 0;
+  padding: 0;
+}
