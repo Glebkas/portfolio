@@ -9,3 +9,8 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.homepage-top__button:hover {
+  background-color: rgba(95, 180, 162, 1);
+  transition: background-color 0.7s;
+}
