@@ -10,4 +10,11 @@
   border: none;
   text-transform: uppercase;
   padding: 17px 24px 17px 24px;
+  cursor: pointer;
+  transition: background-color 0.7s;
+}
+
+.contact-me__form-button:hover {
+  background-color: rgba(95, 180, 162, 1);
+  transition: background-color 0.7s;
 }
