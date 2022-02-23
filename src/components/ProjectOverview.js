@@ -3,7 +3,8 @@ import { useNavigate } from "react-router-dom";
 function ProjectOverview(props) {
   let navigateToProject = useNavigate();
   const handleViewProjectbuttonClick = () => {
-    navigateToProject(`/projects/${props.title}`);
+    navigateToProject(`/portfolio/${props.id}`);
+    console.log(props.key);
   };
 
   return (
