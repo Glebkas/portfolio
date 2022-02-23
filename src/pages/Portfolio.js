@@ -9,6 +9,7 @@ function Portfolio() {
         {data.projects.map((project) => (
           <ProjectOverview
             key={project.id}
+            id={project.id}
             project={project}
             title={project.title}
             description={project.description}
