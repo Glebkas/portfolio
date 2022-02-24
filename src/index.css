@@ -62,3 +62,8 @@ body {
 @import url(./blocks/contact-me/__form-label/contact-me__form-label.css);
 @import url(./blocks/contact-me/__form-input/contact-me__form-input.css);
 @import url(./blocks/contact-me/__form-button/contact-me__form-button.css);
+@import url(./blocks/project/project.css);
+@import url(./blocks/project/__image/project__image.css);
+@import url(./blocks/project/__overview/project__overview.css);
+@import url(./blocks/project/__overview-general/project__overview-general.css);
+@import url(./blocks/project/__overview-title/project__overview-title.css);
