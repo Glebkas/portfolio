@@ -11,6 +11,7 @@
   .project-overview {
     flex-direction: column;
     margin-top: 72px;
+    align-items: center;
   }
 }
 
