@@ -10,6 +10,7 @@ function Portfolio() {
           <ProjectOverview
             key={project.id}
             id={project.id}
+            image={project.image}
             project={project}
             title={project.title}
             description={project.description}
