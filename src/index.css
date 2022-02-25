@@ -67,3 +67,6 @@ body {
 @import url(./blocks/project/__overview/project__overview.css);
 @import url(./blocks/project/__overview-general/project__overview-general.css);
 @import url(./blocks/project/__overview-title/project__overview-title.css);
+@import url(./blocks/project/__overview-description/project__overview-description.css);
+@import url(./blocks/project/__background-description/project__background-description.css);
+@import url(./blocks/project/__background-title/project__background-title.css);
