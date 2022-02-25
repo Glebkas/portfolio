@@ -27,6 +27,7 @@ function Project() {
                 {project.description}
               </p>
               <p className="project__overview-methods">{project.methods}</p>
+              <p className="project__overview-methods">{project.progleng}</p>
               <div className="project__overview-buttons-container">
                 <button className="project__overview-button"></button>
                 <button className="project__overview-button"></button>
@@ -34,7 +35,7 @@ function Project() {
             </div>
 
             <div className="project__background">
-              <h3 className="project__background-title">project background</h3>
+              <h3 className="project__background-title">Project Background</h3>
               <p className="project__background-description">
                 {project.project_background}
               </p>
