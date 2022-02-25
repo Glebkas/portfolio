@@ -1,4 +1,11 @@
-.project__overview-title{
-    max-width: 350px;
-    width: 100%;
+.project__overview-title {
+  max-width: 350px;
+  width: 100%;
+  font-size: 40px;
+  font-family: "IbarraRealNova";
+  margin: 0;
+  line-height: 42px;
+  font-weight: 700;
+  color: #33323d;
+  letter-spacing: -0.357143px;
 }
