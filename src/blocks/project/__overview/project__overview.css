@@ -1,4 +1,5 @@
 .project__overview {
   margin-top: 115px;
   display: flex;
+  justify-content: space-between;
 }
