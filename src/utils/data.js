@@ -16,7 +16,8 @@ const data = {
       title: "Tip-Calculator",
       image: "images/splitter-overview.jpg",
       image_header: "../images/splitter-header.jpg",
-      methods: "Interaction Design / Front End Development HTML / CSS / JS",
+      methods: "Interaction Design / Front End Development",
+      progleng: "HTML / CSS / JS",
       description:
         "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider. ",
       screenShotSmall: "screenShotSmall",
@@ -30,7 +31,8 @@ const data = {
       title: "Planets",
       image: "images/planets-overview.jpg",
       image_header: "../images/planets-header.jpg",
-      methods: "Interaction Design / Front End Development HTML / CSS / JS",
+      methods: "Interaction Design / Front End Development",
+      progleng: "HTML / CSS / JS",
       description:
         "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.",
       screenShotSmall: "screenShotSmall",
@@ -45,6 +47,7 @@ const data = {
       image: "images/places-overview.jpg",
       image_header: "../images/places-header.jpg",
       methods: "Interaction Design / Front End Development HTML / CSS / JS",
+      progleng: "HTML / CSS / JS",
       description:
         "This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation. ",
       screenShotSmall: "screenShotSmall",
@@ -58,7 +61,8 @@ const data = {
       title: "Portfolio",
       image: "images/portfolio-overview.jpg",
       image_header: "../images/portfolio-header.jpg",
-      methods: "Interaction Design / Front End Development HTML / CSS / JS",
+      methods: "Interaction Design / Front End Development",
+      progleng: "HTML / CSS / JS",
       description:
         "This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation. ",
       screenShotSmall: "screenShotSmall",
