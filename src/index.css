@@ -70,3 +70,6 @@ body {
 @import url(./blocks/project/__overview-description/project__overview-description.css);
 @import url(./blocks/project/__background-description/project__background-description.css);
 @import url(./blocks/project/__background-title/project__background-title.css);
+@import url(./blocks/project/__overview-methods/project__overview-methods.css);
+@import url(./blocks/project/__overview-buttons-container/project__overview-buttons-container.css);
+@import url(./blocks/project/__overview-button/project__overview-button.css);
