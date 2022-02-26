@@ -29,8 +29,8 @@ function Project() {
               <p className="project__overview-methods">{project.methods}</p>
               <p className="project__overview-methods">{project.progleng}</p>
               <div className="project__overview-buttons-container">
-                <button className="project__overview-button"></button>
-                <button className="project__overview-button"></button>
+                <button className="project__overview-button">Live</button>
+                <button className="project__overview-button">Code</button>
               </div>
             </div>
 
