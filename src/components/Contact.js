@@ -1,9 +1,10 @@
 import { useNavigate } from "react-router-dom";
 
-function Contact() {
+function Contact({scrollToTop}) {
   let navigate = useNavigate();
   const handleContactMebuttonClick = () => {
     navigate("/contactme");
+    scrollToTop()
   };
 
   return (
