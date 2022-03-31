@@ -1,16 +1,16 @@
 .contact-me__form-input {
-  height: 30px;
-  padding: 9px 16px 9px 16px;
-  border: unset;
-  background-color: rgba(51, 50, 61, 0.1);
-  margin: 0 0 24px 0;
+    height: 30px;
+    padding: 9px 16px 9px 16px;
+    border: transparent;
+    background-color: rgba(51, 50, 61, 0.1);
+    margin: 0 0 24px 0;
 }
 
 .contact-me__form-input::placeholder {
-  color: rgba(51, 50, 61, 0.4);
+    color: rgba(51, 50, 61, 0.4);
 }
 .contact-me__form-input:focus {
-  outline: none;
+    outline: none;
 
-  border: 1px solid #5fb4a2;
+    border: unset;
 }

@@ -1,5 +1,5 @@
 body {
-  background: rgba(250, 250, 250, 1);
+    background: rgba(250, 250, 250, 1);
 }
 @import url(./vendor/normalize.css);
 @import url(./fonts/fonts.css);
@@ -61,6 +61,8 @@ body {
 @import url(./blocks/contact-me/__form-section-title/contact-me__form-section-title.css);
 @import url(./blocks/contact-me/__form-label/contact-me__form-label.css);
 @import url(./blocks/contact-me/__form-input/contact-me__form-input.css);
+@import url(./blocks/contact-me/__form-input/_type/contact-me__form-input_type_error.css);
+@import url(./blocks/contact-me/__form-input-error/contact-me__form-input-error.css);
 @import url(./blocks/contact-me/__form-button/contact-me__form-button.css);
 @import url(./blocks/project/project.css);
 @import url(./blocks/project/__image/project__image.css);

@@ -1,0 +1,8 @@
+.contact-me__form-input-error {
+    font-family: 'PublicSans';
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #f43030;
+    margin: -15px 0 0 0;
+}
