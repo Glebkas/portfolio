@@ -1,3 +1,6 @@
 .project__overview-buttons-container {
   display: flex;
+  justify-content: space-between
+
+
 }

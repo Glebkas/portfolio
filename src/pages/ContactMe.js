@@ -49,9 +49,7 @@ function ContactMe() {
                     noValidate
                     className='contact-me__form'
                 >
-                    <label className='contact-me__form-label' for='name'>
-                        Name*
-                    </label>
+                    <label className='contact-me__form-label'>Name*</label>
                     <input
                         name='name'
                         type='text'
@@ -77,7 +75,7 @@ function ContactMe() {
                     ) : (
                         ''
                     )}
-                    <label className='contact-me__form-label' for='email'>
+                    <label className='contact-me__form-label'>
                         Email Address*
                     </label>
                     <input
@@ -108,9 +106,7 @@ function ContactMe() {
                     ) : (
                         ''
                     )}
-                    <label className='contact-me__form-label' for='email'>
-                        Message
-                    </label>
+                    <label className='contact-me__form-label'>Message</label>
                     <input
                         className='contact-me__form-input'
                         name='message'
