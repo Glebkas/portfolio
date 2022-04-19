@@ -5,6 +5,7 @@ import Contact from '../components/Contact';
 
 function Homepage(props) {
     let navigate = useNavigate();
+    
     const handleAboutbuttonClick = () => {
         navigate('/portfolio');
         props.scrollToTop();
