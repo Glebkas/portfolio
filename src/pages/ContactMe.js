@@ -14,8 +14,8 @@ function ContactMe() {
     const sendEmail = (formData) => {
         emailjs
             .send(
-                'service_14n851e',
-                'template_faaf63p',
+                'service_9hm7z9n',
+                'template_quu9p4d',
                 formData,
                 'yFSJu2eq24K-axRJu'
             )
@@ -114,7 +114,14 @@ function ContactMe() {
                         placeholder='How can I help?'
                         {...register('message')}
                     ></input>
-                    <button className='contact-me__form-button'>
+                    <button
+                        disabled={!isValid ? true : false}
+                        className={
+                            !isValid
+                                ? 'contact-me__form-button contact-me__form-button_disabled'
+                                : 'contact-me__form-button'
+                        }
+                    >
                         Send Message
                     </button>
                 </form>
