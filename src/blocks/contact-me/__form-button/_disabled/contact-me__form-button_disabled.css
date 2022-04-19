@@ -1,0 +1,9 @@
+.contact-me__form-button_disabled{
+    background-color: rgb(147, 146, 146);
+    pointer-events: none;
+
+}
+
+.contact-me__form-button_disabled:hover{
+    background-color: rgb(147, 146, 146);
+}
