@@ -7,7 +7,7 @@ const data = {
     },
     iconLinks: {
         github: 'https://github.com/Glebkas/',
-        linkedin: 'https://www.linkedin.com/in/guy-gleb-kasner-2b8b7a22a/',
+        linkedin: 'https://www.linkedin.com/in/gleb-kasner/',
         facebook: 'https://www.facebook.com/lonlyvisitor/',
     },
     projects: [
