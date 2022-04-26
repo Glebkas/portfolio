@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useNavigate } from 'react-router-dom';
 import Homepage from './pages/Homepage';
 import Portfolio from './pages/Portfolio';
 import ContactMe from './pages/ContactMe';
@@ -12,6 +12,7 @@ function App() {
             top: 0,
         });
     };
+    let navigateToProject = useNavigate();
     return (
         <>
             <Routes>
@@ -28,7 +29,12 @@ function App() {
                     ></Route>
                     <Route
                         path='portfolio'
-                        element={<Portfolio></Portfolio>}
+                        element={
+                            <Portfolio
+                                navigateToProject={navigateToProject}
+                                scrollToTop={scrollToTop}
+                            ></Portfolio>
+                        }
                     ></Route>
                     <Route
                         path='contactme'
@@ -36,7 +42,12 @@ function App() {
                     ></Route>
                     <Route
                         path='portfolio/:id'
-                        element={<Project></Project>}
+                        element={
+                            <Project
+                                navigateToProject={navigateToProject}
+                                scrollToTop={scrollToTop}
+                            ></Project>
+                        }
                     ></Route>
                     <Route path='*' element={<Notfound></Notfound>}></Route>
                 </Route>
