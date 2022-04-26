@@ -67,6 +67,7 @@ body {
 @import url(./blocks/contact-me/__form-button/_disabled/contact-me__form-button_disabled.css);
 
 @import url(./blocks/project/project.css);
+@import url(./blocks/project/__detailes/project__detailes.css);
 @import url(./blocks/project/__image/project__image.css);
 @import url(./blocks/project/__overview/project__overview.css);
 @import url(./blocks/project/__overview-general/project__overview-general.css);
@@ -77,3 +78,13 @@ body {
 @import url(./blocks/project/__overview-methods/project__overview-methods.css);
 @import url(./blocks/project/__overview-buttons-container/project__overview-buttons-container.css);
 @import url(./blocks/project/__overview-button/project__overview-button.css);
+@import url(./blocks/project/__navigator/project__navigator.css);
+@import url(./blocks/project/__navigator-button-text-container/project__navigator-button-text-container.css);
+@import url(./blocks/project/__navigator-button/project__navigator-button.css);
+@import url(./blocks/project/__navigator-button/_type/project__navigator-button_type_next.css);
+@import url(./blocks/project/__navigator-button-title/project__navigator-button-title.css);
+@import url(./blocks/project/__navigator-button-description/project__navigator-button-description.css);
+@import url(./blocks/project/__navigator-button-symbol/project__navigator-button-symbol.css);
+@import url(./blocks/project/__navigator-button-symbol/_type/project__navigator-button-symbol_type_right.css);
+
+@import url(./blocks/static-previews/__title/static-previews__title.css);
