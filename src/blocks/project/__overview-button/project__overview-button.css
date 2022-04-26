@@ -1,6 +1,6 @@
 .project__overview-button {
     text-transform: uppercase;
-    font-family: "publicsans";
+    font-family: 'publicsans';
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 2px;
@@ -15,11 +15,16 @@
     margin: auto 0;
     cursor: pointer;
     transition: 0.7s;
-  }
-  .project__overview-button:hover {
+}
+.project__overview-button:hover {
     background: rgba(51, 50, 61, 1);
     color: white;
     transition: 0.7s;
-  }
-  
-  
+}
+
+@media screen and (max-width: 850px) {
+    .project__overview-button {
+        min-width: unset;
+        width: 100%;
+    }
+}

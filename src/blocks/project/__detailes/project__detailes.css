@@ -1,0 +1,15 @@
+.project__detailes {
+    display: flex;
+    margin-top: 115px;
+    gap: 125px;
+}
+
+@media screen and (max-width: 850px) {
+    .project__detailes {
+        margin-top: 40px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+}
