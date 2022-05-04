@@ -71,20 +71,31 @@ function Project({ scrollToTop, navigateToProject }) {
                         </div>
                         <div className='project__detailed-description'>
                             <div className='project__background'>
+                                {project.project_background.length !==0 && (
+                                    <>
+                                       
+                                        <h3 className='project__background-title'>
+                                            Project Background
+                                        </h3>
+                                        <p className='project__background-description'>
+                                            {project.project_background}
+                                        </p>
+                                    </>
+                                )}
                                 <h3 className='project__background-title'>
-                                    Project Background
+                                    Developed with
                                 </h3>
                                 <p className='project__background-description'>
-                                    {project.project_background}
+                                    {project.dev_with}
                                 </p>
                             </div>
-                            <div className='static-previews'>
+                            {/* <div className='static-previews'>
                                 <h3 className='static-previews__title'>
                                     Static Previews
                                 </h3>
                                 <img></img>
                                 <img></img>
-                            </div>
+                            </div> */}
                         </div>
                     </section>
                 </>
@@ -97,7 +108,10 @@ function Project({ scrollToTop, navigateToProject }) {
                                 onClick={handlePrevProjectbuttonClick}
                                 className='project__navigator-button-symbol'
                             >{`<`}</span>
-                            <div className='project__navigator-button-text-container' onClick={handlePrevProjectbuttonClick}>
+                            <div
+                                className='project__navigator-button-text-container'
+                                onClick={handlePrevProjectbuttonClick}
+                            >
                                 <p className='project__navigator-button-title'>
                                     {prevProject.title}
                                 </p>
@@ -112,7 +126,10 @@ function Project({ scrollToTop, navigateToProject }) {
                 <div className='project__navigator-button project__navigator-button_type_next'>
                     {nextProject && (
                         <>
-                            <div className='project__navigator-button-text-container' onClick={handleNextProjectbuttonClick}>
+                            <div
+                                className='project__navigator-button-text-container'
+                                onClick={handleNextProjectbuttonClick}
+                            >
                                 <p className='project__navigator-button-title'>
                                     {nextProject.title}
                                 </p>
@@ -120,7 +137,10 @@ function Project({ scrollToTop, navigateToProject }) {
                                     Next Project
                                 </p>
                             </div>
-                            <span onClick={handleNextProjectbuttonClick} className='project__navigator-button-symbol project__navigator-button-symbol_type_right'>{`>`}</span>
+                            <span
+                                onClick={handleNextProjectbuttonClick}
+                                className='project__navigator-button-symbol project__navigator-button-symbol_type_right'
+                            >{`>`}</span>
                         </>
                     )}
                 </div>

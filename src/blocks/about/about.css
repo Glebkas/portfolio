@@ -1,12 +1,19 @@
 .about {
-  display: flex;
-  flex-direction: row;
-  margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
 }
 
 @media screen and (max-width: 720px) {
-  .about {
-    flex-direction: column;
-    margin-top: 96px;
-  }
+    .about {
+        flex-direction: column;
+        margin-top: 96px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .about {
+        flex-direction: column;
+        margin-top: 80px;
+    }
 }
