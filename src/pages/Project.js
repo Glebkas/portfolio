@@ -10,12 +10,12 @@ function Project({ scrollToTop, navigateToProject }) {
     const [nextProject, setNextProject] = useState(null);
 
     const handleNextProjectbuttonClick = () => {
-        navigateToProject(`/portfolio/portfolio/${parseInt(id) + 1}`);
+        navigateToProject(`/portfolio/${parseInt(id) + 1}`);
         scrollToTop();
     };
 
     const handlePrevProjectbuttonClick = () => {
-        navigateToProject(`/portfolio/portfolio/${parseInt(id) - 1}`);
+        navigateToProject(`/portfolio/${parseInt(id) - 1}`);
         scrollToTop();
     };
 

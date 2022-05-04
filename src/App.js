@@ -28,7 +28,7 @@ function App() {
                         }
                     ></Route>
                     <Route
-                        path='portfolio/portfolio'
+                        path='/portfolio'
                         element={
                             <Portfolio
                                 navigateToProject={navigateToProject}
@@ -37,11 +37,11 @@ function App() {
                         }
                     ></Route>
                     <Route
-                        path='portfolio/contactme'
+                        path='/contactme'
                         element={<ContactMe></ContactMe>}
                     ></Route>
                     <Route
-                        path='portfolio/portfolio/:id'
+                        path='/portfolio/:id'
                         element={
                             <Project
                                 navigateToProject={navigateToProject}

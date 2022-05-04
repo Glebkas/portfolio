@@ -6,21 +6,21 @@ function Nav(props) {
       <NavLink
         onClick={props.handleNavLinkClick}
         className={props.setActive}
-        to="/home"
+        to="/"
       >
         Home
       </NavLink>
       <NavLink
         onClick={props.handleNavLinkClick}
         className={props.setActive}
-        to="/portfolio/portfolio"
+        to="/portfolio"
       >
         Portfolio
       </NavLink>
       <NavLink
         onClick={props.handleNavLinkClick}
         className={props.setActive}
-        to="portfolio/contactme"
+        to="/contactme"
       >
         contact me
       </NavLink>
