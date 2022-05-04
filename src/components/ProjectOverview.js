@@ -1,6 +1,6 @@
 function ProjectOverview(props) {
     const handleViewProjectbuttonClick = () => {
-        props.navigateToProject(`/portfolio/${props.id}`);
+        props.navigateToProject(`/portfolio/portfolio/${props.id}`);
         props.scrollToTop();
     };
 

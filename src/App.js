@@ -17,18 +17,18 @@ function App() {
         <>
             <Routes>
                 <Route
-                    path='/portfolio'
+                    path='/'
                     element={<Layout scrollToTop={scrollToTop}></Layout>}
                 >
                     <Route
                         index
-                        path='/portfolio'
+                        path='/home'
                         element={
                             <Homepage scrollToTop={scrollToTop}></Homepage>
                         }
                     ></Route>
                     <Route
-                        path='portfolio'
+                        path='portfolio/portfolio'
                         element={
                             <Portfolio
                                 navigateToProject={navigateToProject}
@@ -37,11 +37,11 @@ function App() {
                         }
                     ></Route>
                     <Route
-                        path='contactme'
+                        path='portfolio/contactme'
                         element={<ContactMe></ContactMe>}
                     ></Route>
                     <Route
-                        path='portfolio/:id'
+                        path='portfolio/portfolio/:id'
                         element={
                             <Project
                                 navigateToProject={navigateToProject}
