@@ -17,12 +17,12 @@ function App() {
         <>
             <Routes>
                 <Route
-                    path='/'
+                    path='/portfolio'
                     element={<Layout scrollToTop={scrollToTop}></Layout>}
                 >
                     <Route
                         index
-                        path='/'
+                        path='/portfolio'
                         element={
                             <Homepage scrollToTop={scrollToTop}></Homepage>
                         }
