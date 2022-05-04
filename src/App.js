@@ -22,7 +22,7 @@ function App() {
                 >
                     <Route
                         index
-                        path='/home'
+                        path='/'
                         element={
                             <Homepage scrollToTop={scrollToTop}></Homepage>
                         }
