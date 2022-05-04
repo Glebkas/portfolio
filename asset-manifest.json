@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c9762127.css",
-    "main.js": "/portfolio/static/js/main.9c03f2b6.js",
+    "main.js": "/portfolio/static/js/main.4da5f6c6.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/IbarraRealNova-Bold.ttf": "/portfolio/static/media/IbarraRealNova-Bold.1a2604a98feb2bc72be7.ttf",
     "static/media/home-page-top.jpg": "/portfolio/static/media/home-page-top.41e3db3a6d34dbc4aebc.jpg",
@@ -20,11 +20,11 @@
     "static/media/logo.svg": "/portfolio/static/media/logo.6b2775f27638e19c166d.svg",
     "static/media/hamburger.svg": "/portfolio/static/media/hamburger.15a29eb27a8d53777088.svg",
     "main.c9762127.css.map": "/portfolio/static/css/main.c9762127.css.map",
-    "main.9c03f2b6.js.map": "/portfolio/static/js/main.9c03f2b6.js.map",
+    "main.4da5f6c6.js.map": "/portfolio/static/js/main.4da5f6c6.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9762127.css",
-    "static/js/main.9c03f2b6.js"
+    "static/js/main.4da5f6c6.js"
   ]
 }
