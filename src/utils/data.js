@@ -1,6 +1,6 @@
 const data = {
     info: {
-        title: 'Hey, I’m Guy Gleb Kasner and I’m a Front End Developer',
+        title: 'Hey, I’m Guy Gleb Kasner and I’m a Full Stack Developer',
         image: '../../../public/images/profile-image.jpg',
         aboutMe:
             "I'm a junior Full Stack developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices, and writing clean JavaScript. I mostly use React when writing JavaScript code, but I can adapt to whatever tools are required. I'm based in Israel, but I'm happy working remotely and have experience working remotely. When I'm not coding, you'll find me taking photos outdoors. I'd love you to check out my work.",
@@ -83,13 +83,15 @@ const data = {
             image: 'images/portfolio-overview.jpg',
             image_header: '../images/portfolio-header.jpg',
             methods: 'Interaction Design / Front End Development',
-            progleng: 'HTML / CSS / JS',
+            progleng: 'HTML / CSS / JS / React',
             description:
-                'This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation. ',
+                'A multi-page portfolio website that displays all my other projects,  allowing you to navigate between the pages instantly. The portfolio page can take you to a detailed view of each project. I can be contacted via a validated form.',
             screenShotSmall: 'screenShotSmall',
             project_background:
-                'This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.',
-            liveSite: 'livesite',
+                '',
+                dev_with:
+                'Semantic HTML5 markup | CSS custom properties | Flexbox |  Mobile-first workflow | React | React-route-dom-v6 | React-icons | React-Hook-Form | @emailjs',
+                liveSite: 'https://porfolio.handy-tech-guy.com/',
             github: 'https://github.com/Glebkas/Portfolio',
         },
         {
@@ -100,15 +102,16 @@ const data = {
             methods: 'Interaction Design / Front End Development',
             progleng: 'HTML / CSS / JS',
             description:
-                'This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider. ',
+                'Mini tip calculator app that calculates the amount of money that each person must pay including the tip.',
             screenShotSmall: 'screenShotSmall',
             project_background:
-                'This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.',
+                '',
+                dev_with:'Semantic HTML5 markup | CSS custom properties | Flexbox | CSS Grid | BEM | JavaScript ',
             liveSite: 'https://glebkas.github.io/tip-calculator-app-main/',
             github: 'https://github.com/Glebkas/tip-calculator-app-main',
         },
     ],
     contact:
-        'I’d love to hear about what you’re working on and how I could help I’m currently looking for a new role and am open to a wide range of opportunities. My preference would be to find a position in a company in London. But I’m also happy to hear about opportunites that don’t fit that description. I’m a hard-working and positive person who will always approach each task with a sense of purpose and attention to detail. Please do feel free to check out my online profiles below andget in touch using the form.',
+        'I’d love to hear about what you’re working on and how I could help I’m currently looking for a new role and am open to a wide range of opportunities. I’m a hard-working and positive person who will always approach each task with a sense of purpose and attention to detail. Please do feel free to check out my online profiles below and get in touch using the form.',
 };
 export default data;
